@@ -1,0 +1,23 @@
+.anime_tip {
+max-width: 20rem;
+}
+.title{
+    font-size: 1.3rem;
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0.3rem 0;
+
+}
+@media screen and (max-width: 720px) {
+    .anime_tip{
+        height: 0px;
+        width: 0px;
+        div{
+            display: none;
+        }
+    }
+    
+}

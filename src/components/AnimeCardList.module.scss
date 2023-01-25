@@ -1,0 +1,26 @@
+
+.animes_box {
+    display: grid;
+    // grid-template-columns:minmax(100px, 1fr);
+    grid-template-columns: repeat(5 , auto);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    // transform: translateY(-14vh);
+    // margin-left: auto;
+    // margin-right: auto;
+    
+}
+ @media screen and (max-width: 720px) {
+         .animes_box{
+        grid-template-columns: repeat(2, auto);
+            // transform: translateY(-10vh);
+         // background-color: pink;
+     }  
+          }
+                   @media screen and (max-width: 1025px) and (  min-width: 720px) {
+                       .animes_box {
+                           grid-template-columns: repeat(3, auto);
+                           // background-color: pink;
+                       }
+                   }

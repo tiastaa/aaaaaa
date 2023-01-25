@@ -1,0 +1,27 @@
+.link_button{
+    height: 2rem;
+    align-items: center;
+    background-color: rgba(255, 192, 203, 0);
+    border: 0 solid;
+    border-radius: 3px;
+    color: white;
+    // display: flex;
+    // justify-content: center;
+    //  vertical-align: middle;
+    &:hover{
+        background-color: rgba(255, 192, 203, 0.37);
+    }
+    // img{
+    //     height: 2rem;
+    // }
+}
+@media screen and (max-width: 720px) {
+    .link_button {
+        margin: 2px;
+        background-color: rgba(166, 166, 166, 0.532);
+        font-size: small;
+        &:hover {
+                background-color: rgba(166, 166, 166, 0.532);
+            }
+    }
+}

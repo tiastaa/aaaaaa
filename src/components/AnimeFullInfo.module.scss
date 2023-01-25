@@ -1,0 +1,178 @@
+.anime_box {
+    // transform: translateY(-14vh);
+}
+
+.anime_info_box {
+    color: white;
+    // margin: 0 4rem;
+    line-height: 2rem;
+}
+
+.img img {
+    // width: 100%;\
+    height: 100%;
+        // max-height: 20rem;
+    // height: inherit;
+    // background-size: cover;
+    // background-position: center;
+}
+
+.img {
+    // position: relative;
+    z-index: 5;
+    width: auto;
+height: auto;
+    border-radius: 3px;
+    background-color: rgba(62, 62, 62, 0.258);
+    padding: 0.5rem;
+
+    cursor: pointer;
+margin: 0 1rem 0 0;
+    // transform: translateY(-9vh);
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+}
+
+.short_info_box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50rem;
+    // padding: 1rem;
+
+}
+.short_info_box_helper{
+        display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.anime_title_pc {
+
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+    color: white;
+}
+.anime_title_mobile{
+    display: none;
+}
+.synopsis p{
+    color: white;
+    text-align: justify;
+    
+    
+
+
+}
+.synopsis{
+    padding: 1rem;
+    max-width: 50rem;
+    // display: flex;
+    // justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    // padding: 1rem;
+
+}
+
+.span{
+    font-size: 1.4rem;
+    display: flex;
+        justify-content: flex-start;
+        color: white;
+
+}
+.embed{
+    width: 100%;
+    height: 100%;
+    
+}
+.video{
+    padding:  0 1rem ;
+    max-width:50rem ;
+    height:25rem;
+    // height:inherit ;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.like_button {
+    color: rgba(255, 255, 255, 0.429);
+   cursor: pointer;
+    font-size: 1.5rem;
+
+
+}
+
+.like_button_active {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+
+
+}
+.none{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .short_info_box {
+            display: block;
+        }
+                .anime_title_pc {
+        
+display: none;
+                }
+        
+                .anime_title_mobile {
+                    display: block;
+                    color: white;
+                    font-size: 1.5rem;
+                    padding: 0 0 1rem 0;
+                }
+                                .img {
+     
+                                    // height: auto;
+                                    // border-radius: 3px;
+                                    // background-color: rgba(62, 62, 62, 0.258);
+                                    // padding: 1rem;
+                display: inline-block;
+
+                                    margin: 0.5rem 0;
+
+                                }
+.video {
+    // padding: 0 1rem;
+    // max-width: 50rem;
+    height: 15rem;
+    // height:inherit ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.short_info_box {
+display: inline-block;
+//    background-color:aquamarine ;
+    // padding: 1rem;
+// max-width:19rem ;
+}
+    //  .animes_box {
+    //      grid-template-columns: repeat(2, auto);
+    //      // transform: translateY(-10vh);
+    //      // background-color: pink;
+    //  }
+}
+
+
+//  @media screen and (max-width: 1025px) and (min-width: 720px) {
+//      .animes_box {
+//          grid-template-columns: repeat(3, auto);
+//          // background-color: pink;
+//      }
+//  }
